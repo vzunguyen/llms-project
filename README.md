@@ -5,15 +5,15 @@ This project is based on the workshop [Building LLMs from the Ground Up: A 3-hou
 The goal of this project is to understand the inner workings of large language models (LLMs) by implementing one from the ground up.
 
 ## Project Progress
--[x] Data Processing
--[x] Data Set, Data Load
--[x] GPT architecture
-    -[x] Multihead Attention
-    -[x] Layer Norm
-    -[x] GELU
-    -[x] Feed Forward
-    -[x] Transformer Block
--[x] Generating new text (Untrained)
+- Data Processing
+- Data Set, Data Load
+- GPT architecture
+    - Multihead Attention
+    - Layer Norm
+    - GELU
+    - Feed Forward
+    - Transformer Block
+- Generating new text (Untrained)
 
 ## Technology being used in LLM Project
 
