@@ -1,7 +1,7 @@
+# This code is based on Build a Large Language Model (From Scratch), https://github.com/rasbt/LLMs-from-scratch
+
 import tiktoken
 import torch
-from text_generator import generate_text_simple
-
 
 def text_to_token_ids(text, tokenizer):
     encoded = tokenizer.encode(text, allowed_special={'<|endoftext|>'})

@@ -1,3 +1,5 @@
+# This code is based on Build a Large Language Model (From Scratch), https://github.com/rasbt/LLMs-from-scratch
+
 import torch
 import torch.nn as nn
 from architecture import TransformerBlock, LayerNorm

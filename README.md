@@ -14,8 +14,11 @@ The goal of this project is to understand the inner workings of large language m
     - Feed Forward
     - Transformer Block
 - Generating new text (Untrained)
+- Weightloading, train model
 
 ## Technology being used in LLM Project
+
+## How to run?
 
 # References
 [Building LLMs from the Ground Up: A 3-hour Coding Workshop](https://magazine.sebastianraschka.com/p/building-llms-from-the-ground-up)
