@@ -14,15 +14,42 @@ The goal of this project is to understand the inner workings of large language m
     - Feed Forward
     - Transformer Block
 - Generating new text (Untrained)
-- Weightloading, train model
+- Train model
+- Weightloading
+- Finetuning
 
 ## Technology being used in LLM Project
+- LitGPT
 
 ## How to run?
+**Step 1:** Download [python](https://www.python.org/downloads/) 🫡
+**Step 2:** Download [Miniforge3](https://github.com/conda-forge/miniforge)
+    For MacOS/Linux, Homebrew has Miniforge3. Run:
+```
+brew install --cask miniforge
+```
+**Step 3:** Run:
+```
+conda config --set solver libmamba
+```
+**Step 4:** Create new virtual environment:
+```
+conda create -n LLMs python=3.10
+```
+To activate the environment:
+```
+conda activate LLMs
+```
+**Step 5:** Install required Python libraries:
+    - Download requirements.txt
+    - Run:
+```
+pip install -r requirements.txt
+```
 
 # References
 [Building LLMs from the Ground Up: A 3-hour Coding Workshop](https://magazine.sebastianraschka.com/p/building-llms-from-the-ground-up)
 
 Apart from "Building LLMs from the Ground Up: A 3-hour Coding Workshop", [Create a Large Language Model from Scratch with Python – Tutorial](https://www.youtube.com/watch?v=UU1WVnMk4E8) was also used to help with developing the project.
 
-***This project is developed by Zu***
+*This project is developed by Zu*
