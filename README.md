@@ -16,7 +16,6 @@ The goal of this project is to understand the inner workings of large language m
 - Generating new text (Untrained)
 - Train model
 - Weightloading
-- Finetuning
 
 ## Technology being used in LLM Project
 - LitGPT
